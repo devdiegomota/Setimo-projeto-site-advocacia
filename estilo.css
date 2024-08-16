@@ -1,0 +1,16 @@
+* {
+    margin: 0px;
+    font-family: tahoma;
+}
+.secao-largura-limitada {
+    width: 800px;
+    margin: 0px auto;
+}
+.secao-background-conteudo {
+    text-align: right;
+}
+.secao-background-capa {
+    background-image: url(img/capa.jpg);
+    min-height: 500px;
+    background-size: cover;
+}
