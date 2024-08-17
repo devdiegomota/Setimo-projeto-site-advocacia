@@ -1,6 +1,6 @@
-* {
-    margin: 0px;
-    font-family: tahoma;
+
+.secao-topo {
+    border-bottom: 1px solid #d5d5d5;
 }
 .secao-largura-limitada {
     width: 800px;
@@ -8,9 +8,18 @@
 }
 .secao-background-conteudo {
     text-align: right;
+    padding: 50px 20px;
 }
 .secao-background-capa {
     background-image: url(img/capa.jpg);
     min-height: 500px;
     background-size: cover;
+}
+.secao-topo p {
+    margin: 20px auto;   
+    font-size: 22px;
+    font-weight: bold;
+}
+h1, h2 {
+    margin: 0;
 }
